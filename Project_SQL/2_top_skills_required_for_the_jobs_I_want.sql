@@ -1,6 +1,12 @@
 /*
- QUESTION 2: what are the topskills required for these top-paying roles? 
-for my role? (Data Analyst)
+ QUESTION 2: what are the top skills required for these top-paying data analyst roles? (Data Analyst)
+
+- Use the top 10 highest-paying Data analyst jobs from first query
+- Add the specific skills required for these roles
+- Why? it provides a detailed look at which high-paying 
+jobs demand certain skills, helping job seekers understand 
+which skills to devellop that align with top salaries.
+
 
 */
 
@@ -31,7 +37,7 @@ WITH remote_data_anayst_top_jobs as
             and salary_year_avg is not null
 
         order by salary_year_avg desc
-        limit 1000
+        limit 10
     )
     select cd.name, 
         rdatj.job_title, 
@@ -56,3 +62,6 @@ It is selecting all the first top 1000 remote, data analyst jobs,
 the highest payed on average to the 1000th in term of salary per year.
 
 */
+
+drop table top_data_analyst_remote_jobs_postings;
+
