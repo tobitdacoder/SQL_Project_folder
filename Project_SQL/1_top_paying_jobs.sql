@@ -8,6 +8,7 @@ for my role? (Data Analyst)
 - Why? Highlight the top-paying opportunities for Data Analysts, offering insights.
 */
 
+
 WITH remote_data_anayst_top_jobs as 
 ( 
     SELECT 
@@ -26,7 +27,7 @@ WITH remote_data_anayst_top_jobs as
         and salary_year_avg is not null
 
     order by salary_year_avg desc
-    limit 10
+    limit 1000
 )
 
 select cd.name, 
