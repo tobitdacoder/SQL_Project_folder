@@ -4,6 +4,9 @@ for my role? (Data Analyst)
 
 */
 
+
+create table top_data_analyst_remote_jobs_postings as 
+(
 WITH remote_data_anayst_top_jobs as 
 ( 
     SELECT 
@@ -24,12 +27,17 @@ WITH remote_data_anayst_top_jobs as
     order by salary_year_avg desc
     limit 1000
 )
-
 select cd.name, 
-       rdatj.job_title, 
-       rdatj.job_location, 
-       rdatj.job_schedule_type,
-       rdatj.salary_year_avg,
-       rdatj.job_posted_date
+    rdatj.job_title, 
+    rdatj.job_location, 
+    rdatj.job_schedule_type,
+    rdatj.salary_year_avg,
+    rdatj.job_posted_date
 from remote_data_anayst_top_jobs rdatj join company_dim cd
-on rdatj.company_id = cd.company_id;
+on rdatj.company_id = cd.company_id);
+
+
+select * 
+from top_data_analyst_remote_jobs_postings;
+-- this here is the new table that I created so that I can work on it 
+-- much easier and do more analysis on. 
