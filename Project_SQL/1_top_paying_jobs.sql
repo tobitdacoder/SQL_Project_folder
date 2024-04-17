@@ -8,7 +8,6 @@ for my role? (Data Analyst)
 - Why? Highlight the top-paying opportunities for Data Analysts, offering insights.
 */
 
-
 WITH remote_data_anayst_top_jobs as 
 ( 
     SELECT 
@@ -40,4 +39,6 @@ from remote_data_anayst_top_jobs rdatj join company_dim cd
 on rdatj.company_id = cd.company_id;
 
 -- rdatj = remote_data_analyst_top_jobs (our CTE)
+-- I prefered using a CTE as it was more explanatory and clear to understand 
+
 
