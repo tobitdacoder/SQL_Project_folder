@@ -17,4 +17,10 @@ SELECT
     job_posted_date
 
 FROM 
-    job_postings_fact;
+    job_postings_fact
+WHERE job_title_short='Data Analyst' 
+      and job_location='Anywhere' 
+      and salary_year_avg is not null
+
+order by salary_year_avg desc
+limit 10;
