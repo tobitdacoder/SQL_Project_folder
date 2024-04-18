@@ -17,4 +17,11 @@ GROUP BY sd.skills
 ORDER BY skill_demand_count desc
 limit 5;
 
+/*
+this query is the one that allows us to know what are the top 5 in demand 
+skills for Data analysts especially, who also can worj from home. this is 
+to show what skill to focus on when we want to apply to a Data Analyst job
+with the remote work option.
+*/
+
 
