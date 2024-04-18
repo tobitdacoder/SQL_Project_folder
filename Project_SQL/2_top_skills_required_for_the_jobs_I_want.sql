@@ -64,5 +64,14 @@ the highest payed on average to the 1000th in term of salary per year.
 
 */
 
-drop table top_data_analyst_remote_jobs_postings;
+-- Now let us JOIN the tables that will allow us to get the skill names 
+-- that are leeded for each of these top data anamysis jobs that we've 
+-- recently fetched from the database.
 
+-- NOTE: tdarj = top_data_analyst_remote_jobs_postings (the table we 
+--               have just created from that complex query from the previous query file 1)
+
+SELECT tdarj.name as company_name, tdarj.job_title, sjd.job_id, sd.skills
+FROM top_data_analyst_remote_jobs_postings tdarj JOIN skills_job_dim sjd
+     ON tdarj.job_id = sjd.job_id
+     JOIN skills_dim sd ON sjd.skill_id = sd.skill_id;
