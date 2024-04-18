@@ -222,7 +222,7 @@ from job_postings_fact
 limit 1000;
 
 -- THIS DOWN HERE IS A SIMPLE CTE
--- (we are going to writr more complex CTEs later on)
+-- (we are going to write more complex CTEs later on)
 
 SELECT 
     name as company_name, 
