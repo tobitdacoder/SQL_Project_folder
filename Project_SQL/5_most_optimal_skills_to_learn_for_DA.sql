@@ -32,3 +32,18 @@ GROUP BY sd.skills
 HAVING  COUNT(sjd.skill_id)>=10
 ORDER BY averare_salary_per_skill desc, skill_demand_count desc
 limit 25;
+
+
+/*
+
+|------------------------------------|
+|                                    |
+|      FINALLY                       |
+|      WE ARE NOW                    | 
+|      PUTTING THIS FINAL PROJECT    |
+|      ON GITHUB.                    |          
+|                                    |
+|------------------------------------|
+
+
+*/
