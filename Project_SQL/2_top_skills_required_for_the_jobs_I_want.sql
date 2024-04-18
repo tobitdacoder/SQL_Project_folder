@@ -71,7 +71,24 @@ the highest payed on average to the 1000th in term of salary per year.
 -- NOTE: tdarj = top_data_analyst_remote_jobs_postings (the table we 
 --               have just created from that complex query from the previous query file 1)
 
-SELECT tdarj.name as company_name, tdarj.job_title, sjd.job_id, sd.skills
+SELECT tdarj.name as company_name, tdarj.job_title, sjd.job_id,tdarj.salary_year_avg, sd.skills
 FROM top_data_analyst_remote_jobs_postings tdarj JOIN skills_job_dim sjd
      ON tdarj.job_id = sjd.job_id
-     JOIN skills_dim sd ON sjd.skill_id = sd.skill_id;
+     JOIN skills_dim sd ON sjd.skill_id = sd.skill_id
+     ORDER BY tdarj.salary_year_avg desc;
+
+/*
+
+NOTE:
+
+This will generate the table containing the data we are looking for
+whicb is the information about the different skills that are needed 
+for those top paying jobs.
+
+The result of this query will be a table and HERE IS WHAT YOU CAN DO WITH THAT TABLE:
+- you cn export it to use it in EXCEL, in POWER BI or in PYTHON for further work.
+- this can be done just by clicking on the (UP-RIGHT button located in the query 
+  result tab on the left of this code window)
+*/
+
+
