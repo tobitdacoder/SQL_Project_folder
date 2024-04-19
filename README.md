@@ -237,6 +237,15 @@ limit 25;
 ```
 ![Most optimal skills](Assets\5_.png)
 
+here's a breakdown of the most optimal skills for Data Analytics in 2023:
+
+- **High-Demand Programming Languages:** Python and R stand out for their high demand, with demand count of 236 and 148 respectively. Despite their high demand, their average salaries are around $101,397 for Python and 100,499 for R, indicating that proficieny in these languanges in these languanges is highly valued but also widely available. 
+
+- Cloud Tools and Technologies: Skills in specialized technologies such as Snowflake, Azure, AWS, and BigQuery show significant demand with relatively high average salaries, pointing towards the growing importance of cloud platforms and big data technologies in data analysis. 
+
+- **Business Intelligence and Visualization Tools:** Tableau and Looker, with demand count of 230 and 49 respectively, and average salaries around $99,288 and $103,795, highlight the critical role of data visualization and business intelligence in deriving actionable insights from data.
+
+-**Database Technologies:** the demand for skills in traditional and NoSQL database (Oracle, SQL Server, NoSQL) with average salaries ranging from $97,786 to $104,534 reflects the enduring need for data storage retrieval, and management expertise.
 
 # What I Learned
 
