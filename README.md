@@ -174,5 +174,13 @@ to show what skill to focus on when we want to apply to a Data Analyst job
 with the remote work option.
 */
 ```
+Here is a breackdown of the most demanded skills for data analysts in 2023
+
+- **SQL** and **EXCEL** remain fundamental, emphasizing the need for strong foundational skills in data cleaning, processing and data manipulation. 
+
+- **Programming** and **Visualization Tools** like **Python, Tableau** and **Power BI** are essential, pointing towards the increasing importance of technical skills in data storytelling and decision support.
+
+![most in-demand data analytics skills](Assets\skills_demand.png)
+
 ## What I Learned
 ## Conclusion 
