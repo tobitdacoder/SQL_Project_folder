@@ -85,5 +85,11 @@ Based on the result of this query, here is the breakdown of the top data analyst
 
 - **Job Title Variety:** There is a high diversity in job titles, from Data Analysts to Director of analytics, reflecting varied roles and specializations within the field of Data Analytics.
 
-## What I Learned
-## Conclusion 
+Here is the Top paying Data analysis related Roles.
+
+![Top Paying Jobs](Assets\top_paying.png)
+
+### 2. 
+
+# What I Learned
+# Conclusion 
