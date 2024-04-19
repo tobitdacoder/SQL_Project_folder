@@ -29,6 +29,13 @@ So, if you're ready to embark on a journey toward career success, dive into our 
 5. what are the most optimal skills to learn ?
  
 ## Tools I Used
+
+For my deep dive into the data analyst job market, I harnesed the power of several key tools: 
+
+- SQL: The backbone of my analysis, allowing me to query the database and unearth critical insights.
+- PostgreSQL: The chosen database management system (D.B.M.S), ideal for handling the HUGE job posting database.
+- Visual Studio Code: My go-to code editor for database management and executing SQL queries.
+- Git & GitHub: Essential for version control and sharing my SQL scripts and analysis, ensuring collaboration and project tracking.
 ## The analysis
 ## What I Learned
 ## Conclusion 
