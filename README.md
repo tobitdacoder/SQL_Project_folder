@@ -182,5 +182,24 @@ Here is a breackdown of the most demanded skills for data analysts in 2023
 
 ![most in-demand data analytics skills](Assets\skills_demand.png)
 
+### 4. Skills Based on Salary
+
+Exploring the average salary associated with different skills revealed which skills are the highest paying.
+
+```sql
+SELECT sd.skills, ROUND(AVG(jpf.salary_year_avg),2) as averare_salary_per_skill
+FROM job_postings_fact jpf JOIN skills_job_dim sjd 
+     ON jpf.job_id = sjd.job_id
+     JOIN skills_dim sd ON sjd.skill_id=sd.skill_id
+WHERE jpf.job_title_short = 'Data Analyst' and jpf.salary_year_avg is not NULL 
+      AND jpf.job_work_from_home=true 
+GROUP BY sd.skills 
+ORDER BY averare_salary_per_skill desc
+limit 25;
+```
+
+![skills based on Salary](Assets\4_.png)
+*Table of the average salary for the top 10 paying skills for data analysts*
+
 ## What I Learned
 ## Conclusion 
