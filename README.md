@@ -205,6 +205,7 @@ limit 25;
 ### 5. Most optimal skills (money+demand):
 
 ```sql
+
 SELECT 
     sd.skills,COUNT(sjd.skill_id) AS skill_demand_count, 
     ROUND(AVG(jpf.salary_year_avg),2) as averare_salary_per_skill
