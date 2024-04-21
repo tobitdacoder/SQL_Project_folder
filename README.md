@@ -236,7 +236,7 @@ HAVING  COUNT(sjd.skill_id)>=10
 ORDER BY averare_salary_per_skill desc, skill_demand_count desc
 limit 25;
 ```
-![Most optimal skills](C:\Users\25670\OneDrive\Documents\GitHub\SQL_Project_folder\Assets\5_.png)
+![Most optimal skills](Assets\5_.png)
 
 here's a breakdown of the most optimal skills for Data Analytics in 2023:
 
